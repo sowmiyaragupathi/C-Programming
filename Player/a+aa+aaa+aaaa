@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(void)
+{
+	int a,b,c,d,e;
+	printf("\nenter a number:");
+	scanf("%d",&a);
+	a=1*a;
+	b=10*a+a;
+	c=100*a+b;
+	d=1000*a+c;
+	e=a+b+c+d;
+	printf("\n the value of a+aa+aaa+aaaa:%d",e);
+	return 0;
+}
