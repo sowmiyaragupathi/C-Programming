@@ -15,9 +15,9 @@ int main(void)
 		break;
 	}
 	if(status==1)
-	printf("%d is power of 2",num);
+	printf("yes");
 	else
-		printf("%d is  not power of 2",num);
+		printf("no");
 	
 	return 0;
 }
